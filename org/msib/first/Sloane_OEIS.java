@@ -19,7 +19,7 @@ public class Sloane_OEIS {
                 }
             }
         } catch (InputMismatchException e) {
-            System.out.println("Not a valid input, input a number instead");
+            System.out.println("Not a valid input, input a proper number instead");
         } catch (NegativeArraySizeException e) {
             System.out.println("Input cannot be a negative number");
         }
@@ -27,12 +27,12 @@ public class Sloane_OEIS {
 
     public static int[] calculateSloaneOEIS(int n) {
         int[] result = new int[n];
-        int total = 0;
+        int sequence_number = 0;
         result[0] = 1;
 
         for (int i = 1; i < n; i++) {
-            total += i;
-            result[i] = total + 1;
+            sequence_number += i;
+            result[i] = sequence_number + 1;
         }
 
         return result;
