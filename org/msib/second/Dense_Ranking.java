@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Dense_Ranking {
 
-    public static final Scanner SCANNER = new Scanner(System.in);
+    private static final Scanner SCANNER = new Scanner(System.in);
 
     public static void main(String[] args) {
         System.out.print("Masukkan jumlah semua pemain: ");
@@ -21,8 +21,8 @@ public class Dense_Ranking {
 
         List<Integer> rankings = denseRanking(scores, gitsPlayerScores);
 
+        System.out.println("Rank Pemain GITS: ");
         for (int rank : rankings) {
-            System.out.println("Rank Pemain GITS: ");
             System.out.print(rank + " ");
         }
     }

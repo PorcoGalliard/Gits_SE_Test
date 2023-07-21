@@ -4,11 +4,11 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Sloane_OEIS {
+    private static final Scanner SCANNER = new Scanner(System.in);
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
         try {
             System.out.print("Input: ");
-            int n = scanner.nextInt();
+            int n = SCANNER.nextInt();
             int[] result = calculateSloaneOEIS(n);
             System.out.print("Output: ");
 
