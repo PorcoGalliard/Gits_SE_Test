@@ -18,3 +18,5 @@ akan semakin meningkat secara linear pada kondisi tertentu. Jadi, jika ada dua p
 Selain itu, pada Big O Notation, kompleksitas yang lebih rendah dari kompleksitas tertinggi akan diabaikan saja.
 
 Gambar berikut adalah penggambaran simple bagaimana saya menghitung kompleksitas Big O Notation saya = 
+
+![alt text](https://github.com/PorcoGalliard/Gits_SE_Test/blob/master/org/msib/third/picture/Gits_Third_Problem.png?raw=true)
